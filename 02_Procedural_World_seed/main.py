@@ -71,6 +71,8 @@ def make_map(seed):
     print('freq : %s ' % freq)
     if octa == 0.0:
         octa = 1.0
+    if freq == 0.0:
+        freq = 1.0
     
     map = randomly_populate_map(map,seed, (w,h),octa,freq)
     #map = randomly_populate_map(map,seed, (w,h,1.2,6.0)) # ,1.2,6.0

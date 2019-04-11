@@ -75,7 +75,10 @@ def render_all(map):
 				
 
 			else:
-				libtcod.console_set_char_background(con, x, y, libtcod.Color(c, c, c), libtcod.BKGND_SET)
+				libtcod.console_set_char_background(con, x, y, libtcod.Color(c-40, c+20, c-10), libtcod.BKGND_SET)
+				
+				#libtcod.console_set_char_background(con, x, y, libtcod.Color(c, c-20, c+50), libtcod.BKGND_SET)
+				#libtcod.console_set_char_background(con, x, y, libtcod.Color(c-50, c-20, c), libtcod.BKGND_SET)
 				#libtcod.console_set_char_background(con, x, y, libtcod.Color(c, c, c-100), libtcod.BKGND_SET) ## yellow violet
 			
 			
